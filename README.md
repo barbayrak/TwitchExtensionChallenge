@@ -1,4 +1,5 @@
-# Twitch-AWS Extension Challenge 2nd Place - Subtitle Reach Audience Worldwide 
+# Twitch-AWS Extension Challenge 2nd Place
+## Subtitle Reach Audience Worldwide 
 # https://twitchdev.devpost.com/
 
 ![alt text](https://i.ibb.co/x7PCYMM/Screen-Shot-2019-04-10-at-12-55-31.png)
