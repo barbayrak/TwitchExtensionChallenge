@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Config (Broadcaster) Page</title>
+    <link rel="stylesheet" href="./bootstrap4_2_1.css"/>
+    <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+    <script src="./jquery3_3_1.js"></script>
+</head>
+<style>
+    .full-height-container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .child {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+</style>
+
+<body>
+
+<div id="app" class="full-height-container text-center">
+    <p><b>Welcome to Translate : Reach Audience Worldwide</b></p>
+    <p>In Order To Start:</p>
+    <p>1) Open Recognition App button below</p>
+    <p>2) Select your Language and Dialect</p>
+    <p>3) Press "Start Listening"</p>
+    <br>
+    <button id="configButton" type="button" class="btn btn-primary child" disabled>Open Recognition App</button>
+</div>
+
+<script src="./bootstrap4_2_1.js"></script>
+<script src="./config_helper.js"></script>
+
+</body>
+</html>

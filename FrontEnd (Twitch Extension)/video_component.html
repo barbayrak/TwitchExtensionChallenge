@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Translate Viewer Page</title>
+    <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+    <script src="./jquery3_3_1.js"></script>
+    <script src="./pooper1_12_9.js"></script>
+    <script src="./bootstrap4_2_1.js"></script>
+    <link rel="stylesheet" href="./bootstrap4_2_1.css"/>
+</head>
+<style>
+
+    .full-height-container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .settingsContainer{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .subtitleSuperContainer {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .subtitleContainer {
+        width: 90%;
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+    }
+
+    .settings{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .scrollable-menu {
+        height: auto;
+        max-height: 200px;
+        overflow-x: hidden;
+    }
+
+</style>
+<body style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+    <div id="app" class="full-height full-height-container" >
+
+        <div class="subtitleSuperContainer">
+            <div class="subtitleContainer">
+            <span style="background: rgba(8, 8, 8, 0.75); border-radius: 3px; font-size: 34px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);">
+                <span>
+                    &nbsp;
+                    <span id="subtitleText" class="caption-visual-line"></span>
+                    &nbsp;
+                </span>
+            </span>
+            </div>
+        </div>
+
+        <div id="settingsView" class="settingsContainer" >
+            <div id="settingsDropdown" class="settings">
+                <button type="button .btn-large" class="btn btn-secondary dropdown-toggle" style="font-size:34px;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Languages
+                </button>
+                <div id="dropDownButtons" class="dropdown-menu dropdown-menu-right scrollable-menu" style="font-size:34px;">
+                    <button class="dropdown-item" type="button" lan="off"></button>
+                    <button class="dropdown-item" type="button" lan="en" ></button>
+                    <button class="dropdown-item" type="button" lan="ar"></button>
+                    <button class="dropdown-item" type="button" lan="zh"></button>
+                    <button class="dropdown-item" type="button" lan="cs"></button>
+                    <button class="dropdown-item" type="button" lan="da"></button>
+                    <button class="dropdown-item" type="button" lan="nl"></button>
+                    <button class="dropdown-item" type="button" lan="fi"></button>
+                    <button class="dropdown-item" type="button" lan="fr"></button>
+                    <button class="dropdown-item" type="button" lan="de"></button>
+                    <button class="dropdown-item" type="button" lan="he"></button>
+                    <button class="dropdown-item" type="button" lan="id"></button>
+                    <button class="dropdown-item" type="button" lan="it"></button>
+                    <button class="dropdown-item" type="button" lan="ja"></button>
+                    <button class="dropdown-item" type="button" lan="ko"></button>
+                    <button class="dropdown-item" type="button" lan="pl"></button>
+                    <button class="dropdown-item" type="button" lan="pt"></button>
+                    <button class="dropdown-item" type="button" lan="ru"></button>
+                    <button class="dropdown-item" type="button" lan="es"></button>
+                    <button class="dropdown-item" type="button" lan="sv"></button>
+                    <button class="dropdown-item" type="button" lan="tr"></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="viewer.js" charset="utf-8" type="text/javascript"></script>
+
+
+</span>
+</body>
+</html>
